@@ -1,0 +1,105 @@
+.bighead{
+display: flex;
+}
+.bignav{
+display: flex;
+}
+.headleft{
+    display:flex ;
+    justify-content: flex-start;
+    width: 50%;
+}
+.socials{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+}
+.title{
+    text-align: center;
+}
+body{
+    background:radial-gradient(yellow, orange);
+}
+#food{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    background-color: salmon;
+}
+#soccer{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    background-color: white;
+}
+#movie{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    background-color:black;
+    color: white;
+}
+#nfl{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    background-color: green;
+}
+#sidebar{
+    flex: 2;
+    border: 10px solid black;
+    margin: 10px;
+    padding: 10px;
+    align-self: flex-start;
+    background-color: grey;
+    display: inline-flex;
+    flex-direction: column;
+}
+#post{
+    display: flex;
+
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 20px;
+}
+.links{
+    text-align:left ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.picture{
+    border-radius: 5px;
+}
+.text{
+    flex: 1;
+    padding-left: 5px;
+}
+.click{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
