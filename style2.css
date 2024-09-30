@@ -105,4 +105,7 @@ footer p{
         flex-direction: column;
         width: 100%;
     }
+    #sidebar {
+        width: 90%;
+    }
 }
