@@ -137,4 +137,7 @@ h1,h2,h4,h5{
         flex-direction: column;
         width: 100%;
     }
+    #sidebar{
+        width: 90%;
+    }
 }
