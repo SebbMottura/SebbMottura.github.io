@@ -1,13 +1,10 @@
 .bighead{
 display: flex;
+justify-content: center;
 }
 .bignav{
 display: flex;
-}
-.headleft{
-    display:flex ;
-    justify-content: flex-start;
-    width: 50%;
+align-items:baseline;
 }
 .socials{
     text-align: right;
@@ -16,7 +13,10 @@ display: flex;
     justify-content: flex-end;
     width: 50%;
 }
-.title{
+.titles {
+    font-family: "bungee" sans-serif;
+    font-weight: 500;
+    font-style: normal;
     text-align: center;
 }
 body{
@@ -24,7 +24,8 @@ body{
     background-position: fixed;
 }
 #food{
-    border: 2px solid black;
+    border: 4px solid black;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -34,7 +35,8 @@ body{
     background-color: salmon;
 }
 #soccer{
-    border: 2px solid black;
+    border: 4px solid black;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -44,7 +46,8 @@ body{
     background-color: white;
 }
 #movie{
-    border: 2px solid black;
+    border: 4px solid black;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -55,7 +58,8 @@ body{
     color: white;
 }
 #nfl{
-    border: 2px solid black;
+    border: 4px solid black;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -67,6 +71,7 @@ body{
 #sidebar{
     flex: 2;
     border: 10px solid black;
+    border-radius: 20px;
     margin: 10px;
     padding: 10px;
     align-self: flex-start;
@@ -90,6 +95,12 @@ body{
     flex-direction: column;
     width: 50%;
 }
+.links a{
+    padding-bottom: 10px;
+}
+.links a:last-of-type{
+padding-bottom: 0px;
+}
 .picture{
     border-radius: 5px;
 }
@@ -103,4 +114,27 @@ body{
     right: 15px;
     padding: 10px 20px;
     border-radius: 5px;
+}
+.bighead img{
+    width: 25%;
+    height: 25%;
+}
+.socials img{
+    width: 25px;
+    height: 25px;
+}
+h1,h2,h4,h5{
+    font-family: "Bungee Inline", sans-serif;
+        font-weight: 400;
+        font-style:normal;
+}
+.articles h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+@media (max-width: 600px){
+    #post{
+        flex-direction: column;
+        width: 100%;
+    }
 }

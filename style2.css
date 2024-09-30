@@ -1,0 +1,108 @@
+body{
+    background:radial-gradient(yellow, orange);
+    background-position: fixed;
+}
+.bighead {
+    display: flex;
+    justify-content: center;
+}
+
+.bignav {
+    display: flex;
+    align-items: baseline;
+}
+.socials {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+}
+#sidebar {
+    flex: 2;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+    align-self: flex-start;
+    background-color: grey;
+    flex-direction: column;
+}
+.links {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.links a {
+    padding-bottom: 10px;
+}
+
+.links a:last-of-type {
+    padding-bottom: 0px;
+}
+.bighead img {
+    width: 25%;
+    height: 25%;
+}
+
+.socials img {
+    width: 25px;
+    height: 25px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+.main {
+    display: flex;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+.picture1{
+display: flex;
+float: left;
+margin: 10px;
+}
+.picture2{
+display: flex;
+float: right;
+margin: 10px;
+}
+.picture3{
+display: flex;
+float:left;
+margin: 10px;
+}
+.picture4{
+display: flex;
+float: right;
+margin: 10px;
+}
+p{
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    table-layout: none;
+}
+h1, h2, h4{
+    font-family: "Bungee Inline", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width: 600px){
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+}
